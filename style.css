@@ -106,15 +106,27 @@ color:#ff69b4;
 }
 
 .about-box{
-width:70%;
-margin:30px auto;
-padding:25px;
-background:white;
-border-radius:20px;
-box-shadow:0 15px 35px rgba(0,0,0,.1);
-text-align:left;
-line-height:2;
-font-size:18px;
+    width:70%;
+    margin:30px auto;
+    padding:30px;
+    background:#ffffff;
+    border:3px solid #ffffff;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+    text-align:left;
+    line-height:2;
+    font-size:20px;
+    color:#444;
+    transition:.3s;
+}
+
+.about-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+}
+
+.about-box strong{
+    color:#ff69b4;
 }
 
 /* ===== Portfolio ===== */
